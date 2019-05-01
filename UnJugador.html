@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>¿Quién es Quién? | Un Jugador</title>
+	<link href="https://file.myfontastic.com/mjcZ8mef7LxnbtTg3ft3ue/icons.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logojobecat.png">
+    <link rel="stylesheet" type="text/css" href="./css/UnJugador.css">
+    <script type="text/javascript" src="./js/UnJugador.js"></script>
+</head>
+<body>
+	<div class="row">
+    	<div class="col-sm-2"></div>
+    	<div class="col-sm-8">
+    		<nav class="navbar navbar-inverse navbar-fixed-top">
+  				<div class="container-fluid">
+    				<div class="navbar-header">
+      					<a class="navbar-brand" href="#">Quién es Quién?</a>
+    				</div>
+    				<ul class="nav navbar-nav">
+      					<li class="active"><a href="./index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+      					<li><a href="./UnJugador.html"><span class="glyphicon glyphicon-user"></span></a></li>
+      					<li><a href="#" onclick="DosJugadores()">2 <span class="glyphicon glyphicon-user"></a></li>
+      				</ul>
+  				</div>
+			</nav>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+	<div class="container-fluid">
+		<center>
+			<div class="cuerpo">
+				<div class="row">
+					<center>
+						<div class="cara col-sm-2" id="cara1"><a href="#"><img class="img-responsive" src="./img/Carla.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara2"><a href="#"><img class="img-responsive" src="./img/Daniel.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara3"><a href="#"><img class="img-responsive" src="./img/Ana.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara4"><a href="#"><img class="img-responsive" src="./img/Jorge.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara5"><a href="#"><img class="img-responsive" src="./img/Carmen.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara6"><a href="#"><img class="img-responsive" src="./img/Jose.jpg"></a></div>
+					</center>
+				</div>
+				<div class="row">
+					<center>
+						<div class="cara col-sm-2" id="cara7"><a href="#"><img class="img-responsive" src="./img/Juan.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara8"><a href="#"><img class="img-responsive" src="./img/Alba.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara9"><a href="#"><img class="img-responsive" src="./img/Luis.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara10"><a href="#"><img class="img-responsive" src="./img/Celia.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara11"><a href="#"><img class="img-responsive" src="./img/Manuel.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara12"><a href="#"><img class="img-responsive" src="./img/Cristina.jpg"></a></div>
+					</center>
+				</div>
+				<div class="row">
+					<center>
+						<div class="cara col-sm-2" id="cara13"><a href="#"><img class="img-responsive" src="./img/Eva.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara14"><a href="#"><img class="img-responsive" src="./img/Marcos.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara15"><a href="#"><img class="img-responsive" src="./img/Isabel.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara16"><a href="#"><img class="img-responsive" src="./img/Mario.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara17"><a href="#"><img class="img-responsive" src="./img/Laura.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara18"><a href="#"><img class="img-responsive" src="./img/Mateo.jpg"></a></div>
+					</center>
+				</div>
+				<div class="row">
+					<center>
+						<div class="cara col-sm-2" id="cara19"><a href="#"><img class="img-responsive" src="./img/Miguel.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara20"><a href="#"><img class="img-responsive" src="./img/Maria.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara21"><a href="#"><img class="img-responsive" src="./img/Pedro.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara22"><a href="#"><img class="img-responsive" src="./img/Marta.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara23"><a href="#"><img class="img-responsive" src="./img/Ruben.jpg"></a></div>
+						<div class="cara col-sm-2" id="cara24"><a href="#"><img class="img-responsive" src="./img/Rosa.jpg"></a></div>
+					</center>
+				</div>
+			</div>
+		</center>
+		<div class="cuerpo1">
+			<div class="row">
+				<div class="preguntas col-sm-8">
+					<center>
+						<h2>Preguntas</h2>
+						<h3>Es...</h3>
+						<div class="row">
+            	            <div class="col-md-12">
+                                <div class="col-md-4"></div>
+                                <button type="button" class="chico col-md-2" >chico?</button>
+                                <button type="button" class="chica col-md-2">chica?</button>
+                                <div class="col-md-4"></div>
+                            </div>
+                        </div>
+                        <h3>Tiene el pelo...</h3>
+                        <div class="row">
+                        	<div class="col-md-12">
+                        		<div class="col-md-1"></div>
+                        		<button type="button" class="negro col-md-2" >Negro?</button>
+                        		<button type="button" class="rubio col-md-2" >Rubio?</button>
+                        		<button type="button" class="marron col-md-2" >Marrón?</button>
+                        		<button type="button" class="rojo col-md-2" >Rojo?</button>
+                        		<button type="button" class="calvo col-md-2" >Calvo?</button>
+                        		<div class="col-md-1"></div>
+                        	</div>
+                        </div>
+                        <h3>Tiene los ojos...</h3>
+                        <div class="row">
+                        	<div class="col-md-12">
+                        		<div class="col-md-3"></div>
+                        		<button type="button" class="azules col-md-2" >Azules?</button>
+                        		<button type="button" class="verdes col-md-2" >Verdes?</button>
+                        		<button type="button" class="marrones col-md-2" >Marrones?</button>
+                        		<div class="col-md-3"></div>
+                        	</div>
+                        </div>
+                        <h3>Tiene la boca...</h3>
+                        <div class="row">
+                        	<div class="col-md-12">
+                        		<div class="col-md-4"></div>
+								<button type="button" class="grande col-md-2" >Grande?</button>
+								<button type="button" class="pequena col-md-2" >Pequeña?</button>
+								<div class="col-md-4"></div>
+                        	</div>
+                        </div>
+                        <h3>Tiene...</h3>
+                        <div class="row">
+                        	<div class="col-md-12">
+                        		<div class="col-md-1"></div>
+                        		<button type="button" class="barba col-md-2" >Barba?</button>
+                        		<button type="button" class="bigote col-md-2" >Bigote?</button>
+                        		<button type="button" class="gafas col-md-2" >Gafas?</button>
+                        		<button type="button" class="sombrero col-md-2" >Sombrero?</button>
+                        		<button type="button" class="coletas col-md-2" >Coletas?</button>
+                        		<div class="col-md-1"></div>
+                        	</div>
+                        </div>
+                        <h3>Tiene las orejas...</h3>
+                        <div class="row">
+                        	<div class="col-md-12">
+                        		<div class="col-md-4"></div>
+								<button type="button" class="grandes col-md-2" >Grandes?</button>
+								<button type="button" class="pequenas col-md-2" >Pequeñas?</button>
+								<div class="col-md-4"></div>
+                        	</div>
+                        </div>
+                        <h3>Tiene la nariz...</h3>
+                        <div class="row">
+                        	<div class="col-md-12">
+                        		<div class="col-md-4"></div>
+								<button type="button" class="ngrande col-md-2" >Grande?</button>
+								<button type="button" class="npequena col-md-2" >Pequeña?</button>
+								<div class="col-md-4"></div>
+                        	</div>
+                        </div>
+					</center>
+				</div>
+				<div class="respuestas col-sm-4">
+					<div class="row">
+            	            <div class="col-md-12">
+                                <div class="col-md-3"></div>
+                                <button type="button" class="comenzamos col-md-6" id="comenzar" onclick="comenzamos()">COMENZAMOS</button>
+                                <div class="col-md-3"></div>
+                            </div>
+                        </div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="col-sm-2"></div>
+							<div class="trasera col-sm-8">
+								<img class="trasera img-responsive" src="./img/Trasera.png">
+							</div>
+							<div class="col-sm-2"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div id="pregunta" class="col-sm-6"><p>estamos aqui</p></div>
+							<div id="respuesta" class="col-sm-6"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

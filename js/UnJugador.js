@@ -1,0 +1,5 @@
+comenzamos(){
+
+	alert("Hola");
+
+}

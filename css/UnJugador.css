@@ -1,0 +1,151 @@
+/*----------ESTILOS GENERALES----------*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: #D5E2FF;
+}
+img {
+	width: 200px;
+	height: 230px;
+	border: solid 2px blue;
+	border-radius: 10px;
+}
+/*-----------ESTILOS TABLERO-----------*/
+.cuerpo {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.row {
+	width: 100%;
+	margin-top: 5px;
+}
+/*----ESTILOS PREGUNTAS Y RESPUESTAS----*/
+.cuerpo1 {
+	margin-bottom: 50px;
+}
+h2 {
+	margin-bottom: 30px;
+}
+h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+button.chico.col-md-2, button.chica.col-md-2 {
+	background-color: #a64dff;
+	color: #fff;
+	font-size: 20px;
+}
+button.negro.col-md-2 {
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+}
+button.rubio.col-md-2 {
+	background-color: #ffff00;
+	color: #000;
+	font-size: 20px;
+}
+button.marron.col-md-2 {
+	background-color: #86592d;
+	color: #fff;
+	font-size: 20px;
+}
+button.rojo.col-md-2 {
+	background-color: #ff0000;
+	color: #fff;
+	font-size: 20px;
+}
+button.calvo.col-md-2 {
+	background-color: #a6a6a6;
+	color: #000;
+	font-size: 20px;
+}
+button.azules.col-md-2 {
+	background-color: #1ad1ff;
+	color: #000;
+	font-size: 20px;
+}
+button.verdes.col-md-2 {
+	background-color: #aaff80;
+	color: #000;
+	font-size: 20px;
+}
+button.marrones.col-md-2 {
+	background-color: #86592d;
+	color: #fff;
+	font-size: 20px;
+}
+button.grande.col-md-2 {
+	background-color: #0077b3;
+	color: #fff;
+	font-size: 20px;
+}
+button.pequena.col-md-2 {
+	background-color: #408000;
+	color: #fff;
+	font-size: 20px;
+}
+button.barba.col-md-2 {
+	background-color: #cc8800;
+	color: #000;
+	font-size: 20px;
+}
+button.bigote.col-md-2 {
+	background-color: #0066ff;
+	color: #fff;
+	font-size: 20px;
+}
+button.gafas.col-md-2 {
+	background-color: #00802b;
+	color: #fff;
+	font-size: 20px;
+}
+button.sombrero.col-md-2 {
+	background-color: #ff9900;
+	color: #000;
+	font-size: 20px;
+}
+button.coletas.col-md-2 {
+	background-color: #e6e600;
+	color: #000;
+	font-size: 	20px;
+}
+button.grandes.col-md-2 {
+	background-color: #408000;
+	color: #fff;
+	font-size: 	20px;	
+}
+button.pequenas.col-md-2 {
+	background-color: #0077b3;
+	color: #fff;
+	font-size: 20px;
+}
+button.ngrande.col-md-2 {
+	background-color: #ff9900;
+	color: #000;
+	font-size: 	20px;	
+}
+button.npequena.col-md-2 {
+	background-color: #e6e600;
+	color: #000;
+	font-size: 20px;
+}
+.respuestas.col-sm-4 {
+	width: 450px;
+	height: auto;
+	background-color: lightgreen;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+button.comenzamos.col-md-6 {
+	background-color: #cc0000;
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.trasera.col-sm-8 {
+	margin-left: 20px;
+}
